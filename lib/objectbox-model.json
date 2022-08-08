@@ -1,0 +1,100 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6424016787600695430",
+      "lastPropertyId": "7:189808119834143581",
+      "name": "Location",
+      "properties": [
+        {
+          "id": "1:7340659169639472256",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1610534136920631138",
+          "name": "area",
+          "type": 9
+        },
+        {
+          "id": "3:7501113590020543861",
+          "name": "village",
+          "type": 9
+        },
+        {
+          "id": "4:4028480182276226246",
+          "name": "panchayat",
+          "type": 9
+        },
+        {
+          "id": "5:2244748022008546368",
+          "name": "block",
+          "type": 9
+        },
+        {
+          "id": "7:189808119834143581",
+          "name": "pinId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "3:1095378391325752394",
+          "relationTarget": "Pincode"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2926843568394500462",
+      "lastPropertyId": "5:983590384906376137",
+      "name": "Pincode",
+      "properties": [
+        {
+          "id": "1:7594716688924681593",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4051848489981520417",
+          "name": "pincode",
+          "type": 9,
+          "flags": 34848,
+          "indexId": "1:9022913352170306668"
+        },
+        {
+          "id": "3:2156173649322970195",
+          "name": "district",
+          "type": 9
+        },
+        {
+          "id": "4:1326536982537431332",
+          "name": "state",
+          "type": 9
+        },
+        {
+          "id": "5:983590384906376137",
+          "name": "country",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:2926843568394500462",
+  "lastIndexId": "3:1095378391325752394",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    2865266008381946663
+  ],
+  "retiredPropertyUids": [
+    153061183496337685
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
